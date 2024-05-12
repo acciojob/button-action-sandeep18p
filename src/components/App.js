@@ -6,9 +6,9 @@ const App = () => {
   const paraRef = useRef(null);
 
   const toggleVisibility = () => {
-    setIsVisible((prevVisible) => !prevVisible);
+     setIsVisible((prevVisible) => !prevVisible);
   };
-
+ 
   useEffect(() => {
     // Accessing the inner HTML of the paragraph element
     console.log(paraRef.current.innerHTML);
